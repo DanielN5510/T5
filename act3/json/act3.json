@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nombre": "Tarea 1",
+        "fecha_entrega": "2024-11-01",
+        "completada": true
+    },
+    {
+        "id": 2,
+        "nombre": "Tarea 2",
+        "fecha_entrega": "2024-11-02",
+        "completada": true
+    },
+    {
+        "id": 3,
+        "nombre": "Tarea 3",
+        "fecha_entrega": "2024-11-03",
+        "completada": true
+    },
+    {
+        "id": 4,
+        "nombre": "Tarea 4",
+        "fecha_entrega": "2024-11-04",
+        "completada": true
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nombre": "Roboute Guilliman",
+        "edad": 200,
+        "descripcion": "Primarca de los Ultramarines, Señor de Ultramar",
+        "universo": "Warhammer 40K"
+    },
+    {
+        "nombre": "Vegeta",
+        "edad": 48,
+        "descripcion": "El principe de los Saiyajins",
+        "universo": "Dragon Ball Z"
+    },
+    {
+        "nombre": "Jinx",
+        "edad": 22,
+        "descripcion": "Criminal impulsiva de Zaun",
+        "universo": "League of Legends"
+    },
+    {
+        "nombre": "William Joseph Blazkowicz III",
+        "edad": 130,
+        "descripcion": "Caminante del infierno, Depredador Desencadenado, Azote del infierno",
+        "universo": "DOOM"
+    }
+]

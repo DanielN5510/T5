@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/act3/css/act3.css">
+    <script src="/act3/json/act3.js"></script>
+</head>
+<body>
+    <h1>Lista de Tareas</h1>
+    <form id="formulario tarea">
+        <input type="text" id="nombre tarea" placeholder="Nombre de la tarea" required>
+        <input type="date" id="fecha entrega" required>
+        <button type="submit">Añadir Tarea</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre de la tarea</th>
+                <th>Fecha de entrega</th>
+                <th>Completada</th>
+                <th>Eliminar</th>
+            </tr>
+        </thead>
+        <tbody id="Tabla tareas">
+        </tbody>
+    </table>
+</body>
+</html>

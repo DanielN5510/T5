@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/act1/json/act1.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lista de Personajes Ficticios</h1>
+    <div class="filtro">
+        <label for="universoFiltro">Filtrar por universo: </label>
+        <select name="universoFiltro" id="universoFiltro">
+            <option value="Todos" selected>Todos</option>
+            <option value="Warhammer 40K">Warhammer 40K</option>
+            <option value="Dragon Ball Z">Dragon Ball Z</option>
+            <option value="League of Legends">League of Legends</option>
+            <option value="DOOM">DOOM</option>
+        </select>
+        <button onclick="filtrarPersonajes(characters)">Filtrar</button>
+    </div>
+    <ul id="listaPersonajes">
+        
+    </ul>
+</body>
+</html>
