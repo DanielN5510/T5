@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     cargarTareas();
-    const formularioTarea = document.getElementById("formulario-tarea");
+    const formularioTarea = document.getElementById("formulario tarea");
     formularioTarea.addEventListener("submit", (e) => {
         e.preventDefault();
         agregarTarea();
@@ -24,8 +24,8 @@ async function cargarTareas() {
     });
 }
 function agregarTarea() {
-    const nombreTarea = document.getElementById("nombre-tarea").value;
-    const fechaEntrega = document.getElementById("Tabla tareas").value;
+    const nombreTarea = document.getElementById("nombre tarea").value;
+    const fechaEntrega = document.getElementById("fecha entrega").value;
     const nuevaTarea = {
         id: Date.now(),
         nombre: nombreTarea,
@@ -42,7 +42,6 @@ function agregarTarea() {
         <td><button onclick="eliminarTarea(${nuevaTarea.id})">Eliminar</button></td>
     `;
     tablaTareas.appendChild(fila);
-    formularioTarea.reset();
 }
 function eliminarTarea(idTarea) {
     const filaTarea = document.querySelector(`tr[data-id='${idTarea}']`);
